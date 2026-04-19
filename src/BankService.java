@@ -40,7 +40,7 @@ public class BankService {
         try {
             Connection con = DBConnection.getConnection();
 
-            System.out.print("Enter Account Number: ");
+            System.out.print("Enter Account Number:");
             int acc = sc.nextInt();
             System.out.print("Enter PIN: ");
             int pin = sc.nextInt();
